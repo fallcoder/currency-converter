@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>currency converter</title>
+</head>
+<body>
+        <div class="main">
+            <div class="first">
+                <h2>CURRENCY CONVERTER</h2>
+            </div>
+            <div class="second">
+                <div class="from-section">
+                    <span>From</span>
+                    <select name="from" id="from"></select>
+                    <input type="text" placeholder="Enter Amount" id="amount_from" value="1">
+                </div>
+                <button type="button" id="swap"><span class="material-icons">swap_horiz</span></button>
+
+                <div class="to-section">
+                    <span>To</span>
+                    <select name="to" id="to"></select>
+                    <input type="text" id="amount_to" value="1" disabled>
+                </div>
+            </div>
+            <div class="third">
+                <button type="button" id="convert">CONVERT</button>
+            </div>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
